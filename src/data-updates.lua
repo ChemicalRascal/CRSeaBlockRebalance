@@ -31,7 +31,7 @@ local function deleteRecipe(name)
 end
 local function setRecipeEnergyValue(name, value)
   if data.raw.recipe[name] then
-    data.raw.recipe[name].energy = value
+    data.raw.recipe[name].energy_required = value
   end
 end
 local function setRecipeResultAmountValue(recipeName, resultName, amountValue)
