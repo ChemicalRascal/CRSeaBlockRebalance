@@ -58,8 +58,6 @@ local function setItemFuelValue(name, value)
 end
 
 
-log("BLAHBLAHBLAH")
-
 -- Re-establish pre-2019.April charcoal and slag stuff.
 for _, val in pairs(
   {
