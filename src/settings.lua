@@ -1,9 +1,9 @@
 data:extend({
     {
         type = "bool-setting",
-        name = "CRSeaBlockRebalance-Active",
-        setting_type = "setup",
-        order = "CRSeaBlockRebalance-aa",
+        name = "CRSeaBlockRebalance-EnableBorers",
+        setting_type = "startup",
+        order = "CRSeaBlockRebalance-aa[EnableBorers]",
         default_value = true
     },
 })
